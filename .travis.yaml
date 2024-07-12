@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t docker-k8s-udemy -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true docker-k8s-udemy npm run test
