@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          I want to be free of mind
+          learn react - I want to be free of mind
         </a>
       </header>
     </div>
